@@ -1,0 +1,37 @@
+.sub-title p{
+    font-size: var(--font-sml);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--grey);
+}
+.sub-title{
+    margin-bottom: 30px;
+}
+.sub-title .eye{
+    background-color: #fff;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.eye .pupil{
+    background-color: var(--black-1);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.about-title{
+    font-size: var(--font-lg);
+    font-weight: 300;
+    letter-spacing: -2px;
+    color: var(--blue);
+    margin-bottom: 30px;
+}
+.about-desc{
+    max-width: 800px;
+    letter-spacing:.5px;
+    line-height: 1.5;
+    color: var(--grey);
+}
