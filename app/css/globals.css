@@ -213,8 +213,8 @@ section{
   }
   
   #blur {
-    height: 100vh;
-    width: 100vw;
+    height: 120vh;
+    width: 120vw;
     position: fixed;
     top: 0;
     left: 0;
