@@ -1,0 +1,105 @@
+#dev{
+    padding: 0 !important;
+}
+
+#dev .container{
+    grid-template-columns: 2.5fr 1fr;
+}
+
+.dev-left{
+    grid-template-columns: 1fr 1fr;
+    border-right: 1px solid #fff;
+    padding: 40px 40px 40px 0;
+    grid-gap: 40px;
+}
+
+#dev .card{
+    background-color: var(--black-2);
+    padding: 20px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+#dev .card:hover{
+    transform: translateY(-5px);
+}
+
+#dev .card img{
+    border-radius: 7px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 30%;
+    filter: grayscale(100%);
+    margin-bottom: 30px;
+    transition: .3s;
+}
+#dev .card-role{
+    font-size: var(--font-xsml);
+    text-transform: uppercase;
+    color: var(--grey);
+    margin-bottom: 0px;
+    font-weight: 500;
+
+}
+
+#dev .card-title{
+    font-size: calc(var(--font-med) - 4px);
+    font-weight: 600;
+}
+#dev .card-content{
+    height: 120px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+#dev .card-content .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#dev .card-site{
+    color: var(--grey);
+    cursor: pointer;
+}
+
+#dev .card .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+}
+#dev .card-work div{
+    border: 1px solid #6e6e6e;
+    border-radius: 5px;
+    padding: 10px 9px;
+    text-align: center;
+    font-family: var(--mont);
+    font-size: var(--font-xsml);
+    color: var(--grey);
+
+}
+#dev .card .right h4{
+    color: #fff;
+    font-size: calc(var(--font-xsml) + 3px);
+    margin-top: 5px;
+}
+
+.dev-title{
+    font-size: var(--font-med);
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: .9;
+    margin-bottom: 10px;
+}
+.dev-right{
+    padding: 40px 0 40px 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    text-align: right;
+}
+.dev-right .desc{
+    text-transform: uppercase;
+    color: var(--grey);
+    font-size: 11px;
+}

@@ -1,0 +1,48 @@
+#hero{
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    height: calc(100vh - 80px);
+    overflow: hidden;
+}
+#hero .hero-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+}
+#hero img{
+    object-fit: cover;
+    filter: brightness(0.8);
+    margin-top: 30px;
+}
+.hero-text h1{
+    font-size: var(--font-med);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: -50px;
+    letter-spacing: 3px;
+    animation: idk 5s linear;
+}
+.hero-btn .btn-pri{
+    color: var(--black-1);
+    margin-right: 20px;
+}
+.hero-btn .btn-pri i{
+    font-size: 10px;
+    margin-right: 15px;
+}
+.hero-btn{
+    display: flex;
+    align-items: center;
+}
+
+.hero-left p{
+    writing-mode: vertical-lr;
+    color: var(--grey);
+    font-size: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+}

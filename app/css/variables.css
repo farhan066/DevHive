@@ -1,0 +1,25 @@
+:root {
+
+    /* ===colors==== */
+    --black-1: #090909;
+    --black-2: #181818;
+    --black-3: #373737;
+
+    --white: #fff;
+    --grey: #dadada;
+    --blue: #0085FF;
+
+
+    /* ===font-family=== */
+    --azeret: 'Azeret Mono',
+    monospace;
+    --mont: 'Montserrat',
+    sans-serif;
+
+    /* ====font size==== */
+    --font-xsml:10px;
+    --font-sml:13px;
+    --font-med:30px;
+    --font-lg:60px;
+    --font-xlg: 250px
+}

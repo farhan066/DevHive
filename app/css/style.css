@@ -1,0 +1,18 @@
+@import "variables.css";
+@import "globals.css";
+
+@import "header.css";
+@import "hero.css";
+@import "about.css";
+@import "work.css";
+@import "dev.css";
+
+
+@import "contact.css";
+@import "about-page.css";
+@import "work-page.css";
+
+
+@import "footer.css";
+@import "media-q.css";
+@import "animation.css";
