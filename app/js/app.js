@@ -43,11 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Find the loader element by its class name
   let loader = document.querySelector(".loaderBox");
 
-  // Check if the loader element exists
-  if (loader) {
-      // Remove the "hidden" class to make it visible
       loader.classList.add("hidden");
-  }
 });
 
 // ---------animation----------
