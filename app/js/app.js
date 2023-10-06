@@ -43,7 +43,9 @@ document.addEventListener("DOMContentLoaded", function () {
   // Find the loader element by its class name
   let loader = document.querySelector(".loaderBox");
 
-      loader.classList.add("hidden");
+      setTimeout(() => {
+        loader.classList.add("hidden");
+      }, 1500);
 });
 
 // ---------animation----------
